@@ -1,0 +1,21 @@
+.Todo {
+  background-color: rgb(255, 94, 188);
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px;
+  margin: 2px 0px;
+}
+
+.Todo-icons {
+  color: white;
+}
+
+.Todo-completed {
+  text-decoration: line-through;
+  transition: text-decoration;
+  transition-duration: 1000ms;
+}
+
+.Todo-icons i {
+  margin: 0 5px;
+}

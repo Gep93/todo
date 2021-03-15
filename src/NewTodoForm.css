@@ -1,0 +1,25 @@
+.NewTodoForm {
+  padding: 50px;
+}
+
+.NewTodoForm input,
+button {
+  padding: 10px;
+}
+
+.NewTodoForm input {
+  border: none;
+  outline: none;
+}
+
+.NewTodoForm button {
+  color: white;
+  margin-left: 5px;
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 5px;
+}
+
+/* .NewTodoForm input:focus {
+  outline: none;
+} */
