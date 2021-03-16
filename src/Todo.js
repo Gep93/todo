@@ -61,7 +61,9 @@ class Todo extends Component {
       result = (
         <div className="Todo">
           <span
-            className={this.props.completed ? "Todo-completed" : ""}
+            className={
+              this.props.completed ? "Todo-task completed" : "Todo-task"
+            }
             onClick={this.handleToggle}
           >
             {this.props.value}
